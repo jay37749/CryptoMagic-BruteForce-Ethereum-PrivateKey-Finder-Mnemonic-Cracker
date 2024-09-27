@@ -72,6 +72,8 @@ o	Updates the console title to reflect the current number of generated addresses
 o	Utilizes multiple processes for concurrent address generation, improving speed and efficiency.
 7.	Log Output:
 o	Displays regular log messages based on the progress defined by the -v argument.
+
+![image alt](https://github.com/jay37749/CRYPTO-MAGIC-BRUTEFORCE-ETHEREUM-FINDER/blob/49746be70899c5a04cee99f551c6dd5b29f2fe2e/crypto-magic.png)
 ________________________________________
 *Summary*
 
@@ -87,7 +89,9 @@ ________________________________________
 *Give Back to the Developer*
 
 If you find this tool helpful and would like to support the ongoing development, consider contributing in the following ways:
+
 •	Star the Repository: If you're using this project, please give it a star on GitHub! Your support motivates further development.
+
 •	Donate: If you wish to make a donation to support future projects and updates, please consider using https://ko-fi.com/powerwellnessdaily
 
 USDT Wallet: 0x6d9454534f20907638ef3ca33f5f8d3a185e1fce
