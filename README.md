@@ -18,6 +18,7 @@ Copy code
 pip install bip_utils
 pip install rich
 pip install argparse
+
 For Linux:
 Run the following command:
 Copy code
