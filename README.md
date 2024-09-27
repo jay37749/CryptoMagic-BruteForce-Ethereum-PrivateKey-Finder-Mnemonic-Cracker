@@ -3,10 +3,12 @@
 CRYPTO MAGIC
 Hunt and Crack Private Keys (Bytes & Hex) with Mnemonic
 ________________________________________
-Introduction
+*Introduction*
+
 Welcome to Crypto Magic, a powerful script designed to hunt and crack private keys from Ethereum and Polkadot mnemonics. This tool allows users to explore the fascinating world of cryptocurrency address generation and matching.
 ________________________________________
-Installation
+*Installation*
+
 For Windows:
 To get started, install the following packages:
 Copy code
@@ -42,7 +44,8 @@ To hunt and crack private keys from Polkadot mnemonics, run:
 Copy code
 python dotmagic.py -f dot1000.txt -v 1000 -n 32
 ________________________________________
-How the Code Works
+*How the Code Works*
+
 This Python script is designed to generate Ethereum addresses and compare them against a list of "rich addresses" (addresses holding large amounts of Ethereum) from a text file.
 Key Libraries Used:
 •	ctypes: Interacts with low-level Windows API calls for dynamic console title setting.
@@ -70,22 +73,29 @@ o	Utilizes multiple processes for concurrent address generation, improving speed
 7.	Log Output:
 o	Displays regular log messages based on the progress defined by the -v argument.
 ________________________________________
-Summary
+*Summary*
+
 The script generates Ethereum addresses and checks them against a known list of rich addresses. If a match is found, the relevant details are saved for potential wallet recovery.
+
 Realistic Interpretation:
 Even running continuously for millions or billions of years, the chances of brute-forcing a matching Ethereum address remain extraordinarily low.
 ________________________________________
-Conclusion
+*Conclusion*
+
 While this script serves as an educational tool, it's important to understand that brute-forcing private keys or addresses is not a viable method for accessing cryptocurrency funds due to the vastness of the address space.
 ________________________________________
-Give Back to the Developer
+*Give Back to the Developer*
+
 If you find this tool helpful and would like to support the ongoing development, consider contributing in the following ways:
 •	Star the Repository: If you're using this project, please give it a star on GitHub! Your support motivates further development.
-•	Donate: If you wish to make a donation to support future projects and updates, please consider using Patreon or Buy Me a Coffee or https://ko-fi.com/powerwellnessdaily
-USDT: 0x6d9454534f20907638ef3ca33f5f8d3a185e1fce
+•	Donate: If you wish to make a donation to support future projects and updates, please consider using https://ko-fi.com/powerwellnessdaily
+
+USDT Wallet: 0x6d9454534f20907638ef3ca33f5f8d3a185e1fce
+
 •	Feedback: Share your experiences, suggestions, or improvements by opening an issue or contributing directly to the codebase. Your feedback is invaluable!
 ________________________________________
-⚠ DISCLAIMER ⚠
+*⚠ DISCLAIMER ⚠*
+
 This script is provided for educational and research purposes only. The author and contributors are not responsible for any misuse of this tool.
 •	Legal Responsibility: Using this script for malicious purposes, such as unauthorized access to funds, is illegal and unethical. Users must comply with all relevant laws.
 •	Ethical Use: This tool is intended for learning about blockchain technology and should not be used for illegal activities.
