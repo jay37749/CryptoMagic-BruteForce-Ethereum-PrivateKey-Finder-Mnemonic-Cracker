@@ -1,6 +1,6 @@
-![image alt](https://github.com/jay37749/CRYPTO-MAGIC-BRUTEFORCE-ETHEREUM-FINDER/blob/90be627fecdb7ecc92cef4c2e9f8830b4186b3d4/CRYPTOCURRENCY-MAGIC-BRUTEFORCE-ETHEREUM-FINDER.png)
-
+![image alt](https://github.com/jay37749/CryptoMagic-BruteForce-Ethereum-PrivateKey-Finder-Mnemonic-Cracker/blob/61db055447e5b4e76c61d974d89099b9ac0ca88a/CRYPTOCURRENCY-MAGIC-BRUTEFORCE-ETHEREUM-FINDER%20(732%20x%20279%20px).png)
 #CRYPTO MAGIC#
+
 Hunt and Crack Private Keys (Bytes & Hex) with Mnemonic
 ________________________________________
 *Introduction*
