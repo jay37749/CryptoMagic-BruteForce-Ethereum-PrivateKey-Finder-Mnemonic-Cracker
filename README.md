@@ -14,7 +14,8 @@ ________________________________________
 
 For Windows:
 To get started, install the following packages:
-Copy code
+
+*Copy code*
 
 pip install bip_utils
 pip install rich
@@ -22,19 +23,24 @@ pip install argparse
 
 For Linux:
 Run the following command:
-Copy code
+
+*Copy code*
 
 pip3 install rich bip_utils argparse
 ________________________________________
-Usage
+*Usage*
+
 Ethereum:
+
 To hunt and crack private keys from Ethereum mnemonics, use the following command:
-Copy code
+
+*Copy code*
 
 python ethmagic.py -v <NUMBER> -f <FILE> -n <THREADS>
 
 
 Arguments:
+
 •	-h or --help : Show help message and exit
 
 •	-f or --file : Path to the Ethereum rich address file (e.g., -f eth5.txt or --file eth5.txt)
@@ -44,18 +50,25 @@ Arguments:
 •	-n or --thread : Number of threads (CPU cores) to use for processing
 
 Example Command:
-Copy code
+
+*Copy code*
 
 python ethmagic.py -v 1000 -f eth5.txt -n 32
+
 Polkadot:
+
 To hunt and crack private keys from Polkadot mnemonics, run:
-Copy code
+
+*Copy code*
+
 python dotmagic.py -f dot1000.txt -v 1000 -n 32
 ________________________________________
 *How the Code Works*
 
 This Python script is designed to generate Ethereum addresses and compare them against a list of "rich addresses" (addresses holding large amounts of Ethereum) from a text file.
+
 Key Libraries Used:
+
 •	ctypes: Interacts with low-level Windows API calls for dynamic console title setting.
 
 •	time: Provides time-related functions.
@@ -69,6 +82,7 @@ Key Libraries Used:
 •	rich: Beautifies console output for better readability.
 
 Core Components:
+
 1.	Command-Line Argument Parsing:
 o	The script expects three key arguments: -f, -v, and -n.
 
